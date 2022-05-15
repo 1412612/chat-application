@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="Mango-chat-app:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Mango_chat_app_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Mango-chat-app.jar">
+        <element id="module-output" name="Mango-chat-app" />
+      </element>
+    </root>
+  </artifact>
+</component>
