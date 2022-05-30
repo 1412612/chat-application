@@ -240,7 +240,7 @@ public class ChatFrame extends JFrame {
 		
 		btnSend = new JButton("");
 		btnSend.setEnabled(false);
-		btnSend.setIcon(new ImageIcon("data\\icon\\component\\send.png"));
+		btnSend.setIcon(new ImageIcon("chat-application\\data\\icon\\component\\send.png"));
 		
 		chatPanel = new JScrollPane();
 		chatPanel.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
@@ -288,7 +288,7 @@ public class ChatFrame extends JFrame {
 			}
 		});
 		btnFile.setEnabled(false);
-		btnFile.setIcon(new ImageIcon("data\\icon\\component\\attach.png"));
+		btnFile.setIcon(new ImageIcon("chat-application\\data\\icon\\component\\attach.png"));
 		
 		JPanel emojis = new JPanel();
 		emojis.setVisible(false);
@@ -328,99 +328,99 @@ public class ChatFrame extends JFrame {
 						.addComponent(leftPanel, GroupLayout.DEFAULT_SIZE, 355, Short.MAX_VALUE)))
 		);
 		
-		JLabel smileIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\smile.png"));
+		JLabel smileIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\smile.png"));
 		smileIcon.addMouseListener(new IconListener(smileIcon.getIcon().toString()));
 		emojis.add(smileIcon);
 		
-		JLabel bigSmileIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\big-smile.png"));
+		JLabel bigSmileIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\big-smile.png"));
 		bigSmileIcon.addMouseListener(new IconListener(bigSmileIcon.getIcon().toString()));
 		emojis.add(bigSmileIcon);
 		
-		JLabel happyIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\happy.png"));
+		JLabel happyIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\happy.png"));
 		happyIcon.addMouseListener(new IconListener(happyIcon.getIcon().toString()));
 		emojis.add(happyIcon);
 		
-		JLabel loveIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\love.png"));
+		JLabel loveIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\love.png"));
 		loveIcon.addMouseListener(new IconListener(loveIcon.getIcon().toString()));
 		emojis.add(loveIcon);
 		
-		JLabel sadIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\sad.png"));
+		JLabel sadIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\sad.png"));
 		sadIcon.addMouseListener(new IconListener(sadIcon.getIcon().toString()));
 		emojis.add(sadIcon);
 		
-		JLabel madIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\mad.png"));
+		JLabel madIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\mad.png"));
 		madIcon.addMouseListener(new IconListener(madIcon.getIcon().toString()));
 		emojis.add(madIcon);
 		
-		JLabel suspiciousIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\suspicious.png"));
+		JLabel suspiciousIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\suspicious.png"));
 		suspiciousIcon.addMouseListener(new IconListener(suspiciousIcon.getIcon().toString()));
 		emojis.add(suspiciousIcon);
 		
-		JLabel angryIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\angry.png"));
+		JLabel angryIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\angry.png"));
 		angryIcon.addMouseListener(new IconListener(angryIcon.getIcon().toString()));
 		emojis.add(angryIcon);
 		
-		JLabel confusedIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\confused.png"));
+		JLabel confusedIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\confused.png"));
 		confusedIcon.addMouseListener(new IconListener(confusedIcon.getIcon().toString()));
 		emojis.add(confusedIcon);
 		
-		JLabel unhappyIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\unhappy.png"));
+		JLabel unhappyIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\unhappy.png"));
 		unhappyIcon.addMouseListener(new IconListener(unhappyIcon.getIcon().toString()));
 		emojis.add(unhappyIcon);
 		
-		JLabel appleIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\apple.png"));
+		JLabel appleIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\apple.png"));
 		appleIcon.addMouseListener(new IconListener(appleIcon.getIcon().toString()));
 		emojis.add(appleIcon);
 		
-		JLabel orangeIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\orange.png"));
+		JLabel orangeIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\orange.png"));
 		orangeIcon.addMouseListener(new IconListener(orangeIcon.getIcon().toString()));
 		emojis.add(orangeIcon);
 		
-		JLabel cherryIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\cherry.png"));
+		JLabel cherryIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\cherry.png"));
 		cherryIcon.addMouseListener(new IconListener(cherryIcon.getIcon().toString()));
 		emojis.add(cherryIcon);
 		
-		JLabel cakeIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\cake.png"));
+		JLabel cakeIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\cake.png"));
 		cakeIcon.addMouseListener(new IconListener(cakeIcon.getIcon().toString()));
 		emojis.add(cakeIcon);
 		
-		JLabel vietnamIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\vietnam.png"));
+		JLabel vietnamIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\vietnam.png"));
 		vietnamIcon.addMouseListener(new IconListener(vietnamIcon.getIcon().toString()));
 		emojis.add(vietnamIcon);
 		
-		JLabel usIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\us.png"));
+		JLabel usIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\us.png"));
 		usIcon.addMouseListener(new IconListener(usIcon.getIcon().toString()));
 		emojis.add(usIcon);
 		
-		JLabel ukIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\uk.png"));
+		JLabel ukIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\uk.png"));
 		ukIcon.addMouseListener(new IconListener(ukIcon.getIcon().toString()));
 		emojis.add(ukIcon);
 		
-		JLabel canadaIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\canadaIcon.png"));
+		JLabel canadaIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\canadaIcon.png"));
 		canadaIcon.addMouseListener(new IconListener(canadaIcon.getIcon().toString()));
 		emojis.add(canadaIcon);
 		
-		JLabel italyIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\italy.png"));
+		JLabel italyIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\italy.png"));
 		italyIcon.addMouseListener(new IconListener(italyIcon.getIcon().toString()));
 		emojis.add(italyIcon);
 		
-		JLabel spainIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\spainIcon.png"));
+		JLabel spainIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\spainIcon.png"));
 		spainIcon.addMouseListener(new IconListener(spainIcon.getIcon().toString()));
 		emojis.add(spainIcon);
 		
-		JLabel egyptIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\egyptIcon.png"));
+		JLabel egyptIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\egyptIcon.png"));
 		egyptIcon.addMouseListener(new IconListener(egyptIcon.getIcon().toString()));
 		emojis.add(egyptIcon);
 		
-		JLabel swedenIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\sweden.png"));
+		JLabel swedenIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\sweden.png"));
 		swedenIcon.addMouseListener(new IconListener(swedenIcon.getIcon().toString()));
 		emojis.add(swedenIcon);
 		
-		JLabel australiaIcon = new JLabel(new ImageIcon("data\\icon\\emoji\\australia.png"));
+		JLabel australiaIcon = new JLabel(new ImageIcon("chat-application\\data\\icon\\emoji\\australia.png"));
 		australiaIcon.addMouseListener(new IconListener(australiaIcon.getIcon().toString()));
 		emojis.add(australiaIcon);
 		
-		//JLabel userImage = new JLabel(new ImageIcon("data\\icon\\component\\user.png"));
+		//JLabel userImage = new JLabel(new ImageIcon("chat-application\\data\\icon\\component\\user.png"));
 		final DefaultListModel fruitsName = new DefaultListModel();
 
 		fruitsName.addElement("Apple");
